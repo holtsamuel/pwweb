@@ -1,0 +1,80 @@
+body{
+    background-color:darkgreen;
+    padding-left:5%;
+    padding-right:5%;
+    background-image:url("/assets/Carved\ Stone.bmp");
+    font-family:'Times New Roman', Times, serif;
+}
+
+.mainbp{
+    background-color:white;
+    margin-left:10%;
+    margin-right:10%;
+    border:5px black solid;
+    min-height:96vh;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:1%;
+    /* margin-top:5%; */
+    /* background-image:url("/assets/"); */
+}
+
+.title{
+    text-align: center;
+}
+
+.ac{
+    text-align:center;
+    display:block;
+    align-content: center;
+    margin:0 auto;
+}
+
+.menubaricon{
+    /* */
+}
+
+.t-green{
+    color:green;
+}
+
+.t-blue{
+    color:blue;
+}
+
+.bottom{
+    position:absolute; /*Change to absolute?*/
+    bottom:0;
+    padding-bottom:3vh;
+    align-items:center;
+}
+
+.dingbat {
+    font-family: Webdings;
+    font-weight: normal;
+}
+
+.comicsans{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1::before {
+    color: #808080;
+    font-size: 0.8rem;
+    content: "<h1>";
+}
+
+h1::after {
+    color: #808080;
+    font-size: 0.8rem;
+    content: "</h1>";
+}
+
+.mainbp::before{
+    
+}
+
+.x8831{
+    height:31px;
+    width:88px;
+}
